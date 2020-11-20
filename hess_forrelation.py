@@ -50,7 +50,7 @@ def hess(p, q, n):
 
 
 def main():
-    n = 4
+    n = 100
     p = np.random.logistic(-1, 2, size=n)
     q = fft(p)
     np.random.shuffle(q)
