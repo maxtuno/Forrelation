@@ -27,14 +27,12 @@ from scipy.fft import fft
 def hess(p, q, n):
     glb = np.inf
     seq = list(range(n))
-    complexity = 0
     while True:
         ready = True
         for i in range(n):
             for j in range(n):
                 while True:
                     seq[i], seq[j] = seq[j], seq[i]
-                    complexity += 1
                     loc = sum(fft(p) != q[seq])
                     if loc < glb:
                         glb = loc
