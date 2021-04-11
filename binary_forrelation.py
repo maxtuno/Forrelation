@@ -47,7 +47,7 @@ def hess(p, q, n):
 
 
 def main():
-    n = 100
+    n = 2 ** 7
     p = np.random.randint(0, 2, size=n)
     q = fft(p)
     np.random.shuffle(p)
@@ -60,7 +60,7 @@ def main():
     print('\nAre they related in a hidden way? {}\n'.format(fft(p[seq]) == q))
 
     print(fft(p))
-    print(q[seq])
+    print(p[seq])
 
 
 if __name__ == '__main__':
