@@ -56,7 +56,7 @@ Ask for example if this two sequences are related and how? i.e. the hidden seque
 
 
 # Graph Isomorphism Problem
-The HESS Algorithm with above problem, can solve the graph isomorphism on natural way...
+The HESS Algorithm with above problem, can aproximate the graph isomorphism on natural way...
 
 <img
   src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=maxtuno&badges=2&show-avatar=true&style=--header-bg-color:%23000;--border-radius:10px"/>
